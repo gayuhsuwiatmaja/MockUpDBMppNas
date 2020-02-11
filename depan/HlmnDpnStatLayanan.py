@@ -31,7 +31,7 @@ def write():
         z.append(a) 
     
     # dipake jika diupload ke github
-    xlsx = pd.ExcelFile('daftar mpp.xlsx')   
+    xlsx = pd.ExcelFile('depan/daftar mpp.xlsx')   
 
     # xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/daftar mpp.xlsx')         
     df = xlsx.parse(sheet_name = 'Ark1')
