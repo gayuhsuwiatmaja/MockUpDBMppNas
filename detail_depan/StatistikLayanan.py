@@ -14,8 +14,8 @@ import plotly.graph_objects as go
 def StatLayanan_main(bulan,nama_mpp):
     
     # kl diupload ke github
-    # xlsx = pd.ExcelFile('Bulan/'+ bulan +'.xlsx')
-    xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan/'+ bulan +'.xlsx')
+    xlsx = pd.ExcelFile('Bulan/'+ bulan +'.xlsx')
+    # xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan/'+ bulan +'.xlsx')
     df = xlsx.parse(sheet_name = 'Ark1')
     
     
