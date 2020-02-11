@@ -10,9 +10,9 @@ def write():
     st.title("Statistik Pengguna Layanan per Jenis Layanan")
     
     # path ini dipake utk upload ke github
-    # path = 'Bulan 2/'
+    path = 'Bulan 2/'
     
-    path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan 2/'
+    # path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan 2/'
     
     #dapatkan semua file xlsx dlm sebuah folder
     files = []
@@ -31,18 +31,18 @@ def write():
     
     # dipake jika diupload ke github
     # utk dapat nama instansi pemberi layanan
-    # xlsx = pd.ExcelFile('Bulan 2/desember 2019.xlsx')
-    # df = xlsx.parse(sheet_name = 'Ark1')
-    # utk dapat nama mpp
-    # xlsx2 = pd.ExcelFile('daftar mpp.xlsx')            
-    # df2 = xlsx2.parse(sheet_name = 'Ark1')
-    
-    #utk dapat nama instansi pemberi layanan
-    xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan 2/desember 2019.xlsx')
+    xlsx = pd.ExcelFile('Bulan 2/desember 2019.xlsx')
     df = xlsx.parse(sheet_name = 'Ark1')
-    #utk dapat nama mpp
-    xlsx2 = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/daftar mpp.xlsx')            
+    # utk dapat nama mpp
+    xlsx2 = pd.ExcelFile('daftar mpp.xlsx')            
     df2 = xlsx2.parse(sheet_name = 'Ark1')
+    
+    # utk dapat nama instansi pemberi layanan
+    # xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan 2/desember 2019.xlsx')
+    # df = xlsx.parse(sheet_name = 'Ark1')
+    #utk dapat nama mpp
+    # xlsx2 = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/daftar mpp.xlsx')            
+    # df2 = xlsx2.parse(sheet_name = 'Ark1')
     
     
     #hilangkan index paling kiri
