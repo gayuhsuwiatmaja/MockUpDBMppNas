@@ -34,7 +34,7 @@ def write():
     xlsx = pd.ExcelFile('Bulan 2/desember 2019.xlsx')
     df = xlsx.parse(sheet_name = 'Ark1')
     # utk dapat nama mpp
-    xlsx2 = pd.ExcelFile('daftar mpp.xlsx')            
+    xlsx2 = pd.ExcelFile('depan/daftar mpp.xlsx')            
     df2 = xlsx2.parse(sheet_name = 'Ark1')
     
     # utk dapat nama instansi pemberi layanan
