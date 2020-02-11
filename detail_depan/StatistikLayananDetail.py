@@ -15,8 +15,8 @@ def StatLayananDetail_main(nama_mpp,nama_instansi,bulan,nama_instansi_array):
     
     
     # kl upload di github
-    # xlsx = pd.ExcelFile('Bulan 2/'+ bulan +'.xlsx')
-    xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan 2/'+ bulan +'.xlsx')
+    xlsx = pd.ExcelFile('Bulan 2/'+ bulan +'.xlsx')
+    # xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan 2/'+ bulan +'.xlsx')
     df = xlsx.parse(sheet_name = 'Ark1')
     
     
