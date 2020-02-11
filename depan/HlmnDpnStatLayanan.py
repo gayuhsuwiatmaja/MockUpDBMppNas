@@ -52,5 +52,5 @@ def write():
     bulan = str(option1)
     # st.write("Statistik Pengguna Layanan")
     StatistikLayanan.StatLayanan_main(bulan,nama_mpp)
-    st.write('Silahkan klik tombol fullscreen-enter di pojok kanan atas grafik untuk melihat grafik dengan lebih jelas')
+    st.info('Silahkan klik tombol fullscreen-enter di pojok kanan atas grafik untuk melihat grafik dengan lebih jelas')
     # st.write("@avkashchauhan")
