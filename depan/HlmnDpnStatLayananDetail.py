@@ -64,17 +64,17 @@ def write():
     # st.write("Statistik Pengguna Layanan")
     # StatistikLayanan.StatLayanan_main(bulan)
     StatistikLayananDetail.StatLayananDetail_main(nama_mpp,nama_instansi,bulan,nama_instansi_array)
-
+    st.write('Silahkan klik tombol fullscreen-enter di pojok kanan atas grafik untuk melihat grafik dengan lebih jelas')
     # st.write("@avkashchauhan")
     
     
     '''
-    #hilangkan index paling kiri
-    blankIndex=[''] * len(df)
-    df.index=blankIndex
+    # hilangkan index paling kiri
+    # blankIndex=[''] * len(df)
+    # df.index=blankIndex
     '''
     
-    #ambil value masing2 column dalam dataframe. Yg mana dataframeny ambil dari Excel
+    # ambil value masing2 column dalam dataframe. Yg mana dataframeny ambil dari Excel
     # category = list(df['Category'])         
     # option1 = st.selectbox('Pilih es1', TmbahSemuaEs1['eselon_1'].unique())
         
