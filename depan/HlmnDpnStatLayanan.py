@@ -10,9 +10,9 @@ def write():
     st.title("Statistik Pengguna Layanan per Instansi")
     
     # path ini dipake utk upload ke github
-    # path = 'Bulan/'
+    path = 'Bulan/'
     
-    path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan/'
+    # path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/Bulan/'
    
     
     #dapatkan semua file xlsx dlm sebuah folder
@@ -31,9 +31,9 @@ def write():
         z.append(a) 
     
     # dipake jika diupload ke github
-    # xlsx = pd.ExcelFile('daftar mpp.xlsx')   
+    xlsx = pd.ExcelFile('daftar mpp.xlsx')   
 
-    xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/daftar mpp.xlsx')         
+    # xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/daftar mpp.xlsx')         
     df = xlsx.parse(sheet_name = 'Ark1')
     
     '''
