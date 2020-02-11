@@ -15,8 +15,8 @@ from PIL import Image
 def IKMDetail_main(bulan,nama_mpp):
     
     # kl upload di github
-    # xlsx = pd.ExcelFile('IKM/'+ bulan +'.xlsx')
-    xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/IKM/'+ bulan +'.xlsx')
+    xlsx = pd.ExcelFile('IKM/'+ bulan +'.xlsx')
+    # xlsx = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/IKM/'+ bulan +'.xlsx')
     df = xlsx.parse(sheet_name = 'Ark1')
     
     #hilangkan index paling kiri
@@ -55,8 +55,8 @@ def IKMDetail_main(bulan,nama_mpp):
     st.plotly_chart(ab)
     
     # kl diupload ke github
-    # img = Image.open("depan/Permenpan 14 tahun 2017 ttg Survey IKM.jpg")
-    img = Image.open("C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/Permenpan 14 tahun 2017 ttg Survey IKM.jpg")
+    img = Image.open("depan/Permenpan 14 tahun 2017 ttg Survey IKM.jpg")
+    # img = Image.open("C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/Permenpan 14 tahun 2017 ttg Survey IKM.jpg")
     st.write("Panduan Survey IKM berdasarkan Permanpan 14 tahun 2017")
     st.image(img,width = 400)
  
