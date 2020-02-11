@@ -6,15 +6,12 @@ import detail_depan.IKMDetail as IKMDetail
 import pandas as pd
 
 def write():
-    # udisp.title_awesome("Compound Interest Calclator")
-    # CalcEngine.calc_main("CI Calculator", "A Compound Interest Calclator")
-
-    # st.write("@avkashchauhan")
+  
     st.title("Indeks Kepuasan Masyarakat")
     
     # kl diupload ke github pake ini
-    # path = 'IKM/'
-    path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/IKM/'
+    path = 'IKM/'
+    # path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/IKM/'
     
     
     #dapatkan semua file xlsx dlm sebuah folder
@@ -33,8 +30,8 @@ def write():
         z.append(a) 
     
     # kl diupload ke github pake ini
-    # xlsx2 = pd.ExcelFile('daftar mpp.xlsx')
-    xlsx2 = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/daftar mpp.xlsx')            
+    xlsx2 = pd.ExcelFile('daftar mpp.xlsx')
+    # xlsx2 = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/depan/daftar mpp.xlsx')            
     df2 = xlsx2.parse(sheet_name = 'Ark1')
     
     option3 = st.selectbox('Pilih Lokasi MPP', df2['Nama MPP'].unique())
