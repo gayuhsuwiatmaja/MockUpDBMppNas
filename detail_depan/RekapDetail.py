@@ -20,8 +20,8 @@ import branca
 def RekapDetail_main(bulan):
     
     # kl di github pake ini:
-    # path2 = 'statrekap/'
-    path2 = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/statrekap/'
+    path2 = 'statrekap/'
+    # path2 = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/statrekap/'
      
     #dapatkan semua file xlsx dlm sebuah folder
     files2 = []
@@ -39,8 +39,8 @@ def RekapDetail_main(bulan):
         z2.append(a2) 
         
     # kl di github
-    # xlsx2 = pd.ExcelFile('statrekap/'+ bulan +'.xlsx')
-    xlsx2 = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/statrekap/'+ bulan +'.xlsx')
+    xlsx2 = pd.ExcelFile('statrekap/'+ bulan +'.xlsx')
+    # xlsx2 = pd.ExcelFile('C:/Users/User/.spyder-py3/MockUpDBMppNas/statrekap/'+ bulan +'.xlsx')
     df2 = xlsx2.parse(sheet_name = 'bulan')
     
     
