@@ -13,8 +13,8 @@ def write():
     st.title("Peta Rekapitulasi MPP Nasional")
     
     # kl diupload ke github pake ini
-    # path = 'statrekap/'
-    path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/statrekap/'
+    path = 'statrekap/'
+    # path = 'C:/Users/User/.spyder-py3/MockUpDBMppNas/statrekap/'
     
     
     #dapatkan semua file xlsx dlm sebuah folder
