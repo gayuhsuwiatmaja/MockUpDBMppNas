@@ -91,7 +91,7 @@ def IKMDetail_main(bulan,nama_mpp):
     # Change the bar mode
    
     fig.update_layout(barmode='group')
-    fig.update_layout(title_text='Hasil Indeks Kepuasan Masyarakat di ' + bulan)
+    fig.update_layout(title_text='Hasil Indeks Kepuasan Masyarakat di ' + bulan, autosize = True, width=1500, height=800)
     
     # st.plotly_chart(fig)
     
