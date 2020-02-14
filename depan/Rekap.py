@@ -38,4 +38,5 @@ def write():
     bulan = str(option1) 
     
     RekapDetail.RekapDetail_main(bulan)
+    st.info('Silahkan klik masing - masing penanda untuk melihat Rekap Statistiknya')
     
