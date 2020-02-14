@@ -51,7 +51,7 @@ def IKMDetail_main(bulan,nama_mpp):
     
     ab = go.FigureWidget(data=bars)
     ab.update_layout(barmode='group')
-    ab.update_layout(title_text='Hasil Indeks Kepuasan Masyarakat di ' + nama_mpp + ' untuk bulan '+ bulan)
+    ab.update_layout(title_text='Hasil Indeks Kepuasan Masyarakat di ' + nama_mpp + ' untuk bulan '+ bulan, autosize = True, width=1500, height=800)
     st.plotly_chart(ab)
     
     # kl diupload ke github
