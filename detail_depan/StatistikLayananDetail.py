@@ -89,7 +89,7 @@ def StatLayananDetail_main(nama_mpp,nama_instansi,bulan,nama_instansi_array):
     # Change the bar mode
    
     fig.update_layout(barmode='group')
-    fig.update_layout(title_text='Statistik Pengguna Layanan ' + nama_mpp + ' untuk instansi ' + nama_instansi + ' di ' + bulan)
+    fig.update_layout(title_text='Statistik Pengguna Layanan ' + nama_mpp + ' untuk instansi ' + nama_instansi + ' di ' + bulan, autosize = True, width=1500, height=800)
     
     st.plotly_chart(fig)
     
